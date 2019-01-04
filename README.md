@@ -30,5 +30,5 @@ predictors = df.drop('target', axis=1, inplace=False)
 
 
 ```python
-regression_model = sm.OLS(predictors, df)
+regression_model = sm.OLS(target, predictors)
 ```
